@@ -1,0 +1,74 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    background-color: black;
+    margin: 1%;
+}
+
+#t1 {
+    font-family: 'Zen Dots', cursive;
+    font-size: 2em;
+    
+}
+
+#border1 {
+    border: 8px double white;
+    display: flex;
+    border-radius: 10px;
+    width: 22%;
+    flex-direction: column;
+    font: normal 11pt Arial black;
+}
+
+#border2 {
+    border: 8px double #ffffff;
+    display: flex;
+    border-radius: 10px;
+    width: 22%;
+    flex-direction: column;
+    font: normal 11pt Arial black;
+}
+
+#border3 {
+    border: 8px double white;
+    display: flex;
+    border-radius: 10px;
+    width: 22%;
+    flex-direction: column;
+
+}
+
+#endereço {
+  float: right;
+    border: 4px double red;
+    border-radius: 1em;
+    width: 11em;
+    text-align: center;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#horarios {
+    border: 9px ridge red;
+    width: 19em;
+    font-size: 12pt;
+    display: block;
+}
+#horarios2 {
+    border: 9px ridge red;
+    width: 19em;
+    font-size: 12pt;
+    display: block;
+}
+
+
+#select {
+    border: 20px double black;
+    border-radius: 1em;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    float: right;
+  }
